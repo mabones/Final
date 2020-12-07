@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">The fire fighter App</string>
+    <string name="title_activity_fighter_map_acitivity">Map</string>
+    <string name="title_activity_citizen_map">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+</resources>

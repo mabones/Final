@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="citizenPhone" type="id" />
+    <item name="citizenName" type="id" />
+    <item name="rideLocation" type="id" />
+    <item name="rideDistance" type="id" />
+    <item name="rideDate" type="id" />
+</resources>

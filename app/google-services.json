@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "340191057813",
+    "firebase_url": "https://fireapp-2d76f.firebaseio.com",
+    "project_id": "fireapp-2d76f",
+    "storage_bucket": "fireapp-2d76f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340191057813:android:53d2bbf59f8c8ae4ae889c",
+        "android_client_info": {
+          "package_name": "com.example.shino.thefirefighterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340191057813-rnjkbpie370su54dcnhaihm828blujej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shino.thefirefighterapp",
+            "certificate_hash": "df552672bf6b4fc3fc42f8f736d43b0b65ece377"
+          }
+        },
+        {
+          "client_id": "340191057813-pb27cghil7kr9v78j859m5gb5nm2478m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Pb6oN8N9J2PSLbd-y7IGtY7fVQxGkuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340191057813-pb27cghil7kr9v78j859m5gb5nm2478m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

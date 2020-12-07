@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shino.FireApp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.shino.FireApp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.shino.FireApp.FighterLoginActivity" />
+        <activity android:name="com.example.shino.FireApp.CitizenLoginActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC2JYVYTktfmQV705zvlrUwnu4bmNLkCag" />
+
+        <activity
+            android:name=".FighterMapAcitivity"
+            android:label="@string/title_activity_fighter_map_acitivity" />
+        <activity
+            android:name="com.example.shino.FireApp.FighterMapActivity"
+            android:label="@string/title_activity_driver_map" />
+        <activity android:name="com.example.shino.FireApp.CitizenMapActivity" />
+        <activity android:name="com.example.shino.FireApp.CitizenSettingsActivity" />
+        <activity android:name="com.example.shino.FireApp.FighterSettingsActivity" />
+        <activity android:name="com.example.shino.FireApp.HistoryActivity" />
+        <activity android:name="com.example.shino.FireApp.HistorySingleActivity"></activity>
+    </application>
+
+</manifest>
